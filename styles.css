@@ -1,0 +1,148 @@
+*{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.fname{
+    color: red;
+    font-family:fantasy;
+    font-size: 36pt;
+}
+
+.lname{
+    color: black;
+    font-family:fantasy;
+    font-size: 36pt;
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+li{
+    list-style: none;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+ }
+
+li.item1{
+    /* list-style-image: url('Mediamodifier-Design.svg'); */
+    font-size:18pt;
+    /* vertical-align: middle;
+    text-overflow:initial;*/
+}
+li.item2{
+    padding-left: 40px;
+    font-size:18pt;
+}
+
+li.item3{
+    padding-left: 80px;
+    font-size:18pt;
+}
+/* li.item2{
+    list-style: none;
+    list-style-image: url('Mediamodifier-Design (1).svg');
+}
+li.item3{
+    list-style: none;
+    list-style-image: url('Mediamodifier-Design (2).svg');} */
+
+li.item1::before{
+    content: '';
+    display: inline-flex;
+    height: 40px;
+    width: 40px;
+    background-image: url(Mediamodifier-Design.svg);
+    background-size:contain;
+    vertical-align: middle;
+}
+
+li.item2::before{
+    content: '';
+    display: inline-flex;
+    height: 40px;
+    width: 40px;
+    background-image: url('Mediamodifier-Design (1).svg');
+    background-size:contain;
+    vertical-align: middle;
+}
+
+li.item3::before{
+    content: '';
+    display: inline-flex;
+    height: 40px;
+    width: 40px;
+    background-image: url('Mediamodifier-Design (2).svg');
+    background-size:contain;
+    vertical-align: middle;
+}
+
+.soundicon{
+    width: 40px;
+    height: 40px;
+    background-image: url(volume-up-fill.svg);
+    background-size:contain;
+    vertical-align: middle;
+    border-style: outset;
+    border-color: black;
+    border-width: medium;
+}
+
+.r_icon{
+    content: '';
+    display: inline-flex;
+    height: 40px;
+    width: 40px;
+    background-image: url(app.svg);
+    background-size:contain;
+    vertical-align:top;
+}
+
+.menutitle{
+    font-size: 24pt;
+    text-align: center;
+}
+
+.pronounce{
+    font-size: 16pt;
+    text-align: center;
+}
+
+.infotitle{
+    font-size: 24pt;
+    text-align: center;
+}
+
+.about{
+    font-weight:700
+}
+
+.map{
+    min-height: 120px;
+    background-image: url(Apple-maps-app.png);
+    background-size:contain;
+    vertical-align: middle;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+}
+
+.main{
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+}
+
+.vid{
+    
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+    border-right: unset;
+    border-top: unset;
+    border-left: unset;
+}
+
+.sidebar{
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+    border-right: unset;
+}

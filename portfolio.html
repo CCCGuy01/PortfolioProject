@@ -8,52 +8,65 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
+        <link rel="stylesheet" href="styles.css">
         <title>
         </title>
     </head>
     <body>
-        <div class="container row w-auto bg-dark" style="min-height: 800px;">
-            <div class="sidebar h-auto col-3 bg-light">
+        <div class="container row w-auto" style="min-height: 600px">
+            <div class="sidebar col-3 bg-light h-100 pb-5">
                 <div class="rname">
                     <div class="fname">Poke</div>
-                    <div class="r_icon">slkadfjdsklaf</div>
-                    <div class="lname">Bowl</div>
+                    <div class="row mt-n4">
+                        <div class="r_icon mt-3 ml-2"></div>
+                        <div class="lname">Bowl</div>
+                    </div>
                 </div>
-                <ul class="text-dark">
-                    <li>About Us</li>
-                    <li>Menu</li>
-                    <li>Catering</li>
-                    <li>Hours</li>
-                    <li>mon-fri 11 am - 10 pm</li>
-                    <li>sat 12 pm - 1 am</li>
-                    <li>sun 12 pm - 9 pm</li>
-                    <li>Locations</li>
-                    <li></li>
-                    <li>Contact Us</li>
+                <ul class="container text-dark m-n2">
+                    <li class="about pb-3 fw-bolder">About Us</li>
+                    <li class="pb-3 fw-bold">Menu</li>
+                    <li class="pb-3 fw-bold">Catering</li>
+                    <li class="pb-1 fw-bold">Hours</li>
+                    <li class="pb-1 text-black-50">mon-fri 11 am - 10 pm</li>
+                    <li class="pb-1 text-black-50">sat 12 pm - 1 am</li>
+                    <li class="pb-3 text-black-50">sun 12 pm - 9 pm</li>
+                    <li class="pb-3">Locations</li>
+                    <li class="map pb-5"></li>
+                    <li class="pt-3 my-3">Contact Us</li>
                 </ul>
             </div>
-            <div class="main col-9 text-light">
-                <div class="vid bg-light">stuff here</div>
-                <div class="infobar" style="min-height: 500px">
-                    <div class="menuopts container row">
-                        <div class="menutitle bg-primary col-6 m-2 h-auto" style="border-radius: 35px">Poke your way
-                            <ol>
-                                <li>choose your protein</li>
-                                <li>pick your base</li>
-                                <li>select a marinade</li>
-                            </ol>
+            <div class="main col-9 text-light px-0">
+                <div class="vid bg-light col px-0 mx-0" style="background-size: contain; height:421px;">
+                    <video class="img-fluid h-100" controls>
+                        <source src="SampleVideo.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="infobar" style="min-height: 90px; min-width: 350px">
+                    <div class="menuopts container row pr-3 mr-n4">
+                        <div class="menutitle container bg-primary col-7 m-2 h-100" style="border-radius: 35px; min-width: 200px">Poke your way
+                            <ul class="container">
+                                <li class="item1 row">choose your protein</li>
+                                <li class="item2 row">pick your base</li>
+                                <li class="item3 row">select a marinade</li>
+                            </ul>
                         </div>
-                        <div class="infographic bg-danger col-5 m-2" style="border-radius: 35px">
-                            <div class="infotitle">poke</div>
-                            <div class="pronounce"></div>
-                            <div class="definition">
+                        <div class="infographic container bg-danger col-4 m-2" style="border-radius: 35px; min-width: 150px">
+                            <div class="container row">
+                                <div class="infotitle col ml-n4">poke</div>
+                                <div class="pronounce col mr-n4 mt-2">/pō'kā/</div>
+                            </div>
+                            <div class="definition m-n2 ml-n4 mr-n4">
                                 <ul>
                                     <li>noun</li>
                                     <li>Pronounced (Po-kay) A popular Hawaiian dish of marinated, diced raw fish served over rice</li>
                                 </ul>
                             </div>
-                            <div class="soundicon"></div>
+                            <div class="d-flex flex-row-reverse">
+                                <div class="soundicon bg-light d-flex" style="border-radius: 25px;">
+                                    <!-- <img src="volume-up-fill.svg" class="img-fluid"></img> -->
+                                </div>
+                            </div>    
                         </div>
                     </div>
                 </div>
