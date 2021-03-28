@@ -115,9 +115,8 @@ li.item3::before{
 }
 
 .map{
-    min-height: 120px;
-    background-image: url(Apple-maps-app.png);
-    background-size:contain;
+    /*background-image: none;*/
+    /*background-size:contain;*/
     vertical-align: middle;
     border-style: solid;
     border-color: black;
